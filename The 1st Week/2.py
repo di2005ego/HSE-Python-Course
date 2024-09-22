@@ -2,7 +2,6 @@
 
 class Solution(object):
     def longestPalindrome(self, s):
-        n = len(s)
         s1 = []
         for i in s:
             s1.append(i)
